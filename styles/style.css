@@ -2,4 +2,20 @@ html {
   font-family: sans-serif;
 }
 
-/* Votre CSS ci-dessous */
+#boite {
+  width: 250px;
+  height: 200px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid darkred;
+  font-size: 1.125rem;
+  background: linear-gradient(
+    155deg,
+    rgba(255, 0, 0, 1) 25%,
+    rgba(100, 44, 44, 1) 100%
+  );
+  box-shadow: 5px 5px 10px gray;
+}
